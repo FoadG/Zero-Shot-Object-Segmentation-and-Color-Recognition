@@ -49,33 +49,6 @@ In this project, we implemented a system that can detect, segment, and recognize
 - **PyTorch**: Used for deep learning tasks such as training and deploying the CNN model.
 - **OpenCV**: For image processing and visualization.
 
-### Setup and Installation
-
-1. Clone the YOLO-World repository:
-   ```bash
-   git clone https://github.com/AILab-CVC/YOLO-World.git
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   pip install -r YOLO-World/requirements/basic_requirements.txt
-   pip install -r YOLO-World/requirements/demo_requirements.txt
-   pip install -r YOLO-World/requirements/onnx_requirements.txt
-   ```
-
-3. Install additional dependencies:
-   ```bash
-   pip install opencv-python==4.9.0.80
-   pip install opencv-python-headless
-   pip install supervision
-   pip install onnx onnxruntime onnxsim
-   pip install mmcv==2.0.0 mmdet==3.0.0 mmengine==0.10.3 mmyolo==0.6.0
-   pip install timm==0.6.13 transformers==4.36.2 albumentations
-   ...
-   ```
-
-4. Load and prepare the model for inference using YOLO-World, segment using SAM, and classify colors using the custom CNN model.
-
 ### Results
 
 The project is capable of detecting various objects in images, segmenting them, recognizing their colors, and analyzing their spatial relationships. Each step in the process is visualized, making it easy to interpret the model's performance.
